@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="vn" ng-app="shopNG">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Store</title>
+
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="imgs/2019/04/truong-thanh-hung-dmo-favion.png">
+    <link rel="apple-touch-icon" href="imgs/2019/04/truong-thanh-hung-dmo-favion.png">
+
+    <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    <!-- Stylesheets -->
+
+    <!-- Vendor: Bootstrap Stylesheets http://getbootstrap.com -->
+    <link rel='stylesheet' href='bower_components/bootstrap/dist/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='bower_components/fontawesome/css/all.min.css'>
+
+    <!-- Our Website CSS Styles -->
+    <link rel='stylesheet' href='styles/classic.css'>
+    <link rel='stylesheet' href='styles/media@768.css'>
+    <link rel='stylesheet' href='styles/tth.css'>
+
+</head>
+
+<body ng-controller='homeController'>
+    <!-- Our Website Content Goes Here -->
+    <div ng-include="'templates/header.html'"></div>
+    <div ng-view></div>
+    <div ng-include="'templates/footer.html'"></div>
+
+</body>
+<!-- Vendor: Javascripts -->
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+<!-- Our Website Javascripts -->
+<script type="text/javascript" src="scripts/tth.js"></script>
+
+<!-- Vendor: Angular, followed by our custom Javascripts -->
+<script src="bower_components/angular/angular.min.js"></script>
+<script src="bower_components/angular-route/angular-route.min.js"></script>
+
+<script src="scripts/app.js"></script>
+
+</html>

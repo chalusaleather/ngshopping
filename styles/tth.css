@@ -1,0 +1,101 @@
+/* MENU */
+
+
+/* S TOP BAR */
+
+#tth-topBar {
+    padding-top: 40px;
+}
+
+#tth-topBar .tth-leftTop {
+    display: inline-block;
+    color: #8888;
+    line-height: 28px;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-right: 37px;
+}
+
+#tth-topBar .tth-leftTop i {
+    padding-right: 5px;
+}
+
+#tth-topBar .tth-search {
+    border: 1px solid #ebebeb;
+    padding: 20px;
+    border-radius: 0px;
+    width: 250px;
+}
+
+#tth-topBar .tth-rightTop form {
+    display: inline-block;
+    position: relative;
+}
+
+#tth-topBar .tth-rightTop .tth-search {
+    border: 1px solid #ebebeb;
+    padding: 20px;
+    border-radius: 0px;
+    width: 250px;
+}
+
+#tth-topBar .tth-rightTop button i {
+    font-size: 19px;
+    display: inline-block;
+    right: 58px;
+    top: 11px;
+    position: absolute;
+    color: #8888;
+}
+
+.tth-rightTop ::placeholder {
+    color: #8888!important;
+    opacity: 1;
+}
+
+
+/* E TOP BAR */
+
+
+/* S LOGO CENTER */
+
+#tth-header .navbar {
+    display: block;
+    float: none;
+    text-align: center;
+    padding: 15px 0
+}
+
+
+/* E LOGO CENTER */
+
+
+/* S TEXT ALIGN MENU BOTTON */
+
+#tth-header .navbar-collapse {
+    display: inline !important;
+}
+
+#tth-header ul.navbar-nav {
+    text-align: center;
+    display: block;
+    padding-top: 18px;
+}
+
+#tth-header .navbar-nav .nav-item {
+    display: inline;
+}
+
+#tth-header .navbar-nav .nav-item .nav-link {
+    display: inline;
+}
+
+
+/* E TEXT ALIGN MENU BOTTON */
+
+#tth-header .navbar-brand img {
+    max-width: 73px;
+}
+
+
+/* END MENU */
